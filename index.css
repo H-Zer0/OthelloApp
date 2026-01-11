@@ -44,15 +44,49 @@ body {
 
 header {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    perspective: 1000px;
 }
 
-header h1 {
-    font-size: 1.2rem;
-    font-weight: 300;
-    letter-spacing: 0.15em;
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.logo-en {
+    font-family: 'Cinzel', serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.4em;
     color: var(--accent-gold);
     text-transform: uppercase;
+    opacity: 0.8;
+    margin-bottom: -4px;
+}
+
+.logo-ja {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+
+    /* 金色のグラデーション */
+    background: linear-gradient(to bottom,
+            #f9eabd 0%,
+            #d4af37 45%,
+            #b8860b 55%,
+            #d4af37 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* 文字の光沢感と立体感 */
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
+
+    position: relative;
+    padding: 0 10px;
 }
 
 .glass-panel {
