@@ -1,0 +1,16 @@
+{
+    "name": "オセロで白黒つけるぜ！",
+    "short_name": "オセロ",
+    "description": "最高峰の質感と直感的な操作性を兼ね備えたプレミアム・オセロアプリ。",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0a0a0c",
+    "theme_color": "#0a0a0c",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
